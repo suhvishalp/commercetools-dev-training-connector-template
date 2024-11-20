@@ -23,6 +23,8 @@ const create = async (resource: Resource) => {
   return { statusCode: 201, actions: updateActions };
 };
 
+ 
+
 // Controller for update actions
 // const update = (resource: Resource) => {};
 
