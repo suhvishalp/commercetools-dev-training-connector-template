@@ -23,6 +23,8 @@ class EmailVerificationHandler {
       })
       .execute();
 
+      //here you should send the email using email service
+
     logger.info(
       `Ready to send email verification: customerEmail=${customer.body.email}, with token=${token.body.value}`
     );
